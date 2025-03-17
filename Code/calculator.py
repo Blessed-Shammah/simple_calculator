@@ -4,7 +4,7 @@ num1 = int(input("Enter the first number: ")) # First number
 num2 = int(input("Enter the second number: ")) # Second number
 operation = input("Enter the operation (+, -, *, /): ") # Operation
 
-# Perform calculation based on operation
+# Perform calculation based on operation assigned
 if operation == '+':
     result = num1 + num2
     print(f"{num1} + {num2} = {result}")
