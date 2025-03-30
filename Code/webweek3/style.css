@@ -1,0 +1,104 @@
+/* style.css */
+
+/* General styling with a different font */
+body {
+    font-family: 'Roboto', sans-serif; /* Using a different font (Roboto) */
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Selector 1: Element selector for headings */
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Selector 2: Class selector for the ordered list */
+.roman-list {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Selector 3: ID selector for the image section */
+#image-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Styling the image */
+#image-section img {
+    border: 3px solid #3498db;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling (already provided, adjusted for consistency) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db; /* Updated color for better aesthetics */
+    color: white;
+}
+
+/* Form styling (already provided, adjusted for consistency) */
+form {
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #2c3e50;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+/* Styling the submit button */
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    border-top: 2px solid #3498db;
+}
